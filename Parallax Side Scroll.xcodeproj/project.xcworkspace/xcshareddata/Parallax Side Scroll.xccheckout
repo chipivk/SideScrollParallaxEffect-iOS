@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85E72F33-4225-4E66-A5F9-2317AD41364D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Parallax Side Scroll</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>238322BE-4A43-40C7-B01B-EC1E48CB0D0B</key>
+		<string>https://github.com/chipivk/SideScrollParallaxEffect-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Parallax Side Scroll.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>238322BE-4A43-40C7-B01B-EC1E48CB0D0B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chipivk/SideScrollParallaxEffect-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>238322BE-4A43-40C7-B01B-EC1E48CB0D0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>238322BE-4A43-40C7-B01B-EC1E48CB0D0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SideScrollParallaxEffect-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

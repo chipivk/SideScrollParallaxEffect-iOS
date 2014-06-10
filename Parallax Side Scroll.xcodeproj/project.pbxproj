@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C563749519472B6000DF7519 /* ParallaxSideScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C563749419472B6000DF7519 /* ParallaxSideScrollView.m */; };
 		EA3CAFC019026F5E00E38392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CAFBF19026F5E00E38392 /* Foundation.framework */; };
 		EA3CAFC219026F5E00E38392 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CAFC119026F5E00E38392 /* CoreGraphics.framework */; };
 		EA3CAFC419026F5E00E38392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CAFC319026F5E00E38392 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C563749319472B6000DF7519 /* ParallaxSideScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxSideScrollView.h; sourceTree = "<group>"; };
+		C563749419472B6000DF7519 /* ParallaxSideScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxSideScrollView.m; sourceTree = "<group>"; };
 		EA3CAFBC19026F5E00E38392 /* Parallax Side Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parallax Side Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3CAFBF19026F5E00E38392 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA3CAFC119026F5E00E38392 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,10 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C563749219472B6000DF7519 /* ParallaxSideScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C563749319472B6000DF7519 /* ParallaxSideScrollView.h */,
+				C563749419472B6000DF7519 /* ParallaxSideScrollView.m */,
+			);
+			path = ParallaxSideScrollView;
+			sourceTree = "<group>";
+		};
 		EA3CAFB319026F5E00E38392 = {
 			isa = PBXGroup;
 			children = (
 				EA3CAFC519026F5E00E38392 /* Parallax Side Scroll */,
+				C563749219472B6000DF7519 /* ParallaxSideScrollView */,
 				EA3CAFE419026F5E00E38392 /* Parallax Side ScrollTests */,
 				EA3CAFBE19026F5E00E38392 /* Frameworks */,
 				EA3CAFBD19026F5E00E38392 /* Products */,
@@ -279,6 +292,7 @@
 			files = (
 				EA3CAFD619026F5E00E38392 /* ViewController.m in Sources */,
 				EA3CAFD019026F5E00E38392 /* AppDelegate.m in Sources */,
+				C563749519472B6000DF7519 /* ParallaxSideScrollView.m in Sources */,
 				EA3CAFCC19026F5E00E38392 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -393,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -407,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parallax Side Scroll/Parallax Side Scroll-Prefix.pch";
 				INFOPLIST_FILE = "Parallax Side Scroll/Parallax Side Scroll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,6 +435,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parallax Side Scroll/Parallax Side Scroll-Prefix.pch";
 				INFOPLIST_FILE = "Parallax Side Scroll/Parallax Side Scroll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -484,6 +500,7 @@
 				EA3CAFF019026F5E00E38392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA3CAFF119026F5E00E38392 /* Build configuration list for PBXNativeTarget "Parallax Side ScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				EA3CAFF319026F5E00E38392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
